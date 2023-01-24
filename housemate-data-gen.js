@@ -7,6 +7,7 @@ function randomInt(max) {
 
 const householdsToCreate = 10;
 const maxUsersPerHousehold = 4;
+const maxTasksPerHousehold = 10;
 
 const households = { households: [] };
 const loginRegister = { users: [] };
@@ -14,7 +15,7 @@ const loginRegister = { users: [] };
 for (let i = 0; i < householdsToCreate; i++) {
   const surname = faker.name.lastName();
   const numberOfUsers = randomInt(maxUsersPerHousehold);
-  const numberOfTasks = randomInt(maxUsersPerHousehold);
+  const numberOfTasks = randomInt(maxTasksPerHousehold);
 
   let household = {
     // _id: faker.datatype.uuid(),
@@ -38,6 +39,7 @@ for (let i = 0; i < householdsToCreate; i++) {
   for (let i = 0; i < numberOfUsers; i++) {
     let user = {
       user_id: household.users[i].id,
+      household_id: household.household_id,
       firstName: faker.name.firstName(),
       lastName: surname,
       picture: faker.image.avatar(),
@@ -53,12 +55,13 @@ for (let i = 0; i < householdsToCreate; i++) {
     let task = {
       task_id: "t" + faker.datatype.uuid(),
       user_id: faker.helpers.arrayElement(household.users).id,
-      timestamp: faker.date.recent(),
+      created_at: faker.date.recent(),
+      deadline: i % 2 === 0 ? faker.date.future() : null,
       title: faker.hacker.ingverb(),
       description: faker.hacker.phrase(),
       completion: faker.datatype.boolean(),
       task_value: randomInt(10),
-      tags: faker.word.noun(),
+      tags: i % 3 === 0 ? faker.word.noun() : null,
     };
     household.tasks.push(task);
   }
