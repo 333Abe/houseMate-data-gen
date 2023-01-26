@@ -1,670 +1,994 @@
-{
-  "households": [
-    {
-      "household_id": "h81cd0834-4a24-41da-86c9-668be6a4d45f",
-      "name": "Lang household",
-      "household_password": "goldencandidate",
-      "description": "Exercitationem dolorum asperiores error aperiam vitae atque amet delectus distinctio.",
-      "users": [
-        {
-          "id": "u27885319-ed56-40b2-9dd6-91910fe98b02",
-          "permissions": ["admin"],
-          "currScore": 16
-        },
-        {
-          "id": "uca02de2a-e6b5-418b-8df7-9d92988ac6bb",
-          "permissions": ["member"],
-          "currScore": 13
-        },
-        {
-          "id": "u43ea4e70-4995-43cb-9bc2-bf2d3eb3b3be",
-          "permissions": ["member"],
-          "currScore": 32
-        }
-      ],
-      "tasks": [
-        {
-          "task_id": "t26d32c8c-e212-4dcd-864a-97895b5f6f94",
-          "user_id": "uca02de2a-e6b5-418b-8df7-9d92988ac6bb",
-          "created_at": "2023-01-23T11:41:36.406Z",
-          "deadline": "2023-10-13T16:53:56.754Z",
-          "title": "navigating",
-          "description": "Try to synthesize the VGA panel, maybe it will back up the open-source hard drive!",
-          "completion": false,
-          "task_value": 3,
-          "tags": "tract"
-        }
-      ],
-      "currWinner": "u27885319-ed56-40b2-9dd6-91910fe98b02"
-    },
-    {
-      "household_id": "hbac704b4-601f-44bb-8955-042c38530bdf",
-      "name": "Gorczany household",
-      "household_password": "stridentsaucer",
-      "description": "Illo doloribus suscipit quisquam culpa debitis corporis.",
-      "users": [
-        {
-          "id": "u01ee387f-e09a-4f6d-b172-79db4c6a74ba",
-          "permissions": ["admin"],
-          "currScore": 9
-        }
-      ],
-      "tasks": [
-        {
-          "task_id": "t023b6b85-56d4-4367-9672-06a04718dec9",
-          "user_id": "u01ee387f-e09a-4f6d-b172-79db4c6a74ba",
-          "created_at": "2023-01-23T17:44:33.107Z",
-          "deadline": "2023-04-19T00:52:16.265Z",
-          "title": "synthesizing",
-          "description": "The TCP firewall is down, program the solid state transmitter so we can copy the RAM sensor!",
-          "completion": true,
-          "task_value": 6,
-          "tags": "colorlessness"
-        }
-      ],
-      "currWinner": "u01ee387f-e09a-4f6d-b172-79db4c6a74ba"
-    },
-    {
-      "household_id": "ha22949d5-3f26-414f-a8d0-58a9361fc47a",
-      "name": "Quitzon household",
-      "household_password": "miserlylikeness",
-      "description": "Veritatis nihil tempora maxime praesentium praesentium quidem dolore tenetur labore.",
-      "users": [
-        {
-          "id": "uda1631e7-bb64-42e9-adb8-ed6bbab471f8",
-          "permissions": ["admin"],
-          "currScore": 48
-        },
-        {
-          "id": "u9d25f192-4fda-4938-981b-81805783c4da",
-          "permissions": ["member"],
-          "currScore": 41
-        }
-      ],
-      "tasks": [
-        {
-          "task_id": "tb9a74537-f819-4a80-92bb-0001c08acedd",
-          "user_id": "uda1631e7-bb64-42e9-adb8-ed6bbab471f8",
-          "created_at": "2023-01-23T18:06:55.255Z",
-          "deadline": "2023-11-16T19:24:43.118Z",
-          "title": "indexing",
-          "description": "I'll calculate the optical AGP array, that should feed the SCSI microchip!",
-          "completion": false,
-          "task_value": 3,
-          "tags": "dollar"
-        },
-        {
-          "task_id": "te3231346-82fd-48a5-ad7a-893c39872f19",
-          "user_id": "u9d25f192-4fda-4938-981b-81805783c4da",
-          "created_at": "2023-01-23T17:05:48.508Z",
-          "deadline": null,
-          "title": "backing up",
-          "description": "synthesizing the panel won't do anything, we need to override the primary CSS application!",
-          "completion": true,
-          "task_value": 6,
-          "tags": null
-        },
-        {
-          "task_id": "t09c34699-58ac-4b93-9916-b4e43ffc6931",
-          "user_id": "uda1631e7-bb64-42e9-adb8-ed6bbab471f8",
-          "created_at": "2023-01-23T03:23:26.650Z",
-          "deadline": "2023-11-29T13:49:11.838Z",
-          "title": "hacking",
-          "description": "I'll index the neural DRAM application, that should matrix the TLS sensor!",
-          "completion": true,
-          "task_value": 6,
-          "tags": null
-        },
-        {
-          "task_id": "t25817970-6c49-4ab9-9f72-c51aac9bd202",
-          "user_id": "uda1631e7-bb64-42e9-adb8-ed6bbab471f8",
-          "created_at": "2023-01-23T00:32:31.956Z",
-          "deadline": null,
-          "title": "backing up",
-          "description": "The SSD panel is down, back up the digital interface so we can override the XML program!",
-          "completion": false,
-          "task_value": 8,
-          "tags": "reward"
-        },
-        {
-          "task_id": "t49ca9a54-5739-4ae6-8b92-b478f8600529",
-          "user_id": "uda1631e7-bb64-42e9-adb8-ed6bbab471f8",
-          "created_at": "2023-01-23T18:08:51.582Z",
-          "deadline": "2023-06-20T16:56:07.562Z",
-          "title": "overriding",
-          "description": "Try to program the XML system, maybe it will index the bluetooth card!",
-          "completion": true,
-          "task_value": 7,
-          "tags": null
-        },
-        {
-          "task_id": "t8b469b85-12b8-4428-b1d1-f71fa195ee05",
-          "user_id": "uda1631e7-bb64-42e9-adb8-ed6bbab471f8",
-          "created_at": "2023-01-22T23:42:58.331Z",
-          "deadline": null,
-          "title": "hacking",
-          "description": "The EXE hard drive is down, input the wireless bus so we can generate the RSS program!",
-          "completion": true,
-          "task_value": 3,
-          "tags": null
-        },
-        {
-          "task_id": "ta216fae7-98bd-47c9-b593-b02e29b05c3b",
-          "user_id": "u9d25f192-4fda-4938-981b-81805783c4da",
-          "created_at": "2023-01-23T19:20:55.626Z",
-          "deadline": "2023-11-30T12:25:24.601Z",
-          "title": "parsing",
-          "description": "You can't hack the hard drive without bypassing the primary SMTP protocol!",
-          "completion": false,
-          "task_value": 8,
-          "tags": "cupcake"
-        },
-        {
-          "task_id": "t35b7ed45-29a8-4b94-b3cf-dd7f77238013",
-          "user_id": "u9d25f192-4fda-4938-981b-81805783c4da",
-          "created_at": "2023-01-23T15:57:54.345Z",
-          "deadline": null,
-          "title": "transmitting",
-          "description": "We need to compress the solid state IB port!",
-          "completion": true,
-          "task_value": 7,
-          "tags": null
-        },
-        {
-          "task_id": "t9e8c58b4-63ef-4a95-86df-aea1631a95fd",
-          "user_id": "u9d25f192-4fda-4938-981b-81805783c4da",
-          "created_at": "2023-01-23T12:09:59.360Z",
-          "deadline": "2023-05-23T04:19:54.533Z",
-          "title": "indexing",
-          "description": "transmitting the protocol won't do anything, we need to compress the open-source SQL port!",
-          "completion": false,
-          "task_value": 3,
-          "tags": null
-        }
-      ],
-      "currWinner": "u9d25f192-4fda-4938-981b-81805783c4da"
-    },
-    {
-      "household_id": "h93ae76ae-4d1e-40ed-a1ca-6a5b589cab54",
-      "name": "Legros household",
-      "household_password": "needytomato",
-      "description": "Aliquid doloribus eius sequi.",
-      "users": [
-        {
-          "id": "u70d19717-6e28-45f3-8c63-f5121cd6c797",
-          "permissions": ["admin"],
-          "currScore": 38
-        }
-      ],
-      "tasks": [
-        {
-          "task_id": "tf5f4bdd1-6895-481b-aa31-47242a1e06bf",
-          "user_id": "u70d19717-6e28-45f3-8c63-f5121cd6c797",
-          "created_at": "2023-01-23T04:41:11.027Z",
-          "deadline": "2023-07-28T06:15:33.666Z",
-          "title": "indexing",
-          "description": "Use the haptic SQL protocol, then you can index the virtual bandwidth!",
-          "completion": false,
-          "task_value": 8,
-          "tags": "poet"
-        },
-        {
-          "task_id": "t883f820d-a980-4524-9b68-2e4739b60357",
-          "user_id": "u70d19717-6e28-45f3-8c63-f5121cd6c797",
-          "created_at": "2023-01-23T07:46:15.467Z",
-          "deadline": null,
-          "title": "copying",
-          "description": "I'll connect the neural SMS matrix, that should program the AI interface!",
-          "completion": true,
-          "task_value": 10,
-          "tags": null
-        },
-        {
-          "task_id": "tf4cf6782-f7b0-4f6b-a608-060f6d3b88f1",
-          "user_id": "u70d19717-6e28-45f3-8c63-f5121cd6c797",
-          "created_at": "2023-01-23T05:52:03.215Z",
-          "deadline": "2023-08-29T20:07:59.235Z",
-          "title": "synthesizing",
-          "description": "If we back up the firewall, we can get to the RAM matrix through the wireless AI transmitter!",
-          "completion": true,
-          "task_value": 5,
-          "tags": null
-        },
-        {
-          "task_id": "t2c7a6e5c-0e03-48e9-b1f3-23ba69ee135e",
-          "user_id": "u70d19717-6e28-45f3-8c63-f5121cd6c797",
-          "created_at": "2023-01-23T07:02:26.434Z",
-          "deadline": null,
-          "title": "compressing",
-          "description": "Try to calculate the AI firewall, maybe it will override the 1080p capacitor!",
-          "completion": true,
-          "task_value": 5,
-          "tags": "mountain"
-        },
-        {
-          "task_id": "t23761c2d-e713-44fb-ba4a-a30bf97e64e4",
-          "user_id": "u70d19717-6e28-45f3-8c63-f5121cd6c797",
-          "created_at": "2023-01-22T22:39:10.364Z",
-          "deadline": "2023-08-10T07:14:36.623Z",
-          "title": "quantifying",
-          "description": "I'll navigate the haptic UDP program, that should matrix the UDP card!",
-          "completion": false,
-          "task_value": 2,
-          "tags": null
-        },
-        {
-          "task_id": "t6b4e1744-a4de-48d8-bf53-9583dfc14de9",
-          "user_id": "u70d19717-6e28-45f3-8c63-f5121cd6c797",
-          "created_at": "2023-01-23T05:28:55.075Z",
-          "deadline": null,
-          "title": "hacking",
-          "description": "If we program the capacitor, we can get to the CLI interface through the bluetooth GB interface!",
-          "completion": true,
-          "task_value": 9,
-          "tags": null
-        },
-        {
-          "task_id": "t3f58eda2-514c-4245-93d0-e9bf6e0dd5d1",
-          "user_id": "u70d19717-6e28-45f3-8c63-f5121cd6c797",
-          "created_at": "2023-01-22T21:19:11.660Z",
-          "deadline": "2023-04-20T04:28:24.268Z",
-          "title": "programming",
-          "description": "I'll quantify the mobile ASCII protocol, that should matrix the ASCII system!",
-          "completion": false,
-          "task_value": 1,
-          "tags": "skating"
-        },
-        {
-          "task_id": "tf8c93105-635d-4adf-a9cd-ae3b4fd35d87",
-          "user_id": "u70d19717-6e28-45f3-8c63-f5121cd6c797",
-          "created_at": "2023-01-22T22:30:07.064Z",
-          "deadline": null,
-          "title": "synthesizing",
-          "description": "The TLS port is down, calculate the online sensor so we can back up the HTTP driver!",
-          "completion": true,
-          "task_value": 3,
-          "tags": null
-        },
-        {
-          "task_id": "t20c622d7-3523-488e-bf43-92626640ab36",
-          "user_id": "u70d19717-6e28-45f3-8c63-f5121cd6c797",
-          "created_at": "2023-01-23T14:51:43.617Z",
-          "deadline": "2023-03-12T00:32:43.736Z",
-          "title": "copying",
-          "description": "Try to quantify the RAM sensor, maybe it will calculate the online system!",
-          "completion": false,
-          "task_value": 10,
-          "tags": null
-        }
-      ],
-      "currWinner": "u70d19717-6e28-45f3-8c63-f5121cd6c797"
-    },
-    {
-      "household_id": "hefb79fd8-d17b-4fae-a8ac-868f9b7a8a06",
-      "name": "Wisoky household",
-      "household_password": "ovalconscience",
-      "description": "Nam officia harum consequatur repellendus.",
-      "users": [
-        {
-          "id": "uda317eca-0389-4b2a-bf3b-e17372a5e146",
-          "permissions": ["admin"],
-          "currScore": 5
-        }
-      ],
-      "tasks": [
-        {
-          "task_id": "tb2b0ba21-b592-48c5-a9a8-e978bac0eea5",
-          "user_id": "uda317eca-0389-4b2a-bf3b-e17372a5e146",
-          "created_at": "2023-01-23T09:27:55.992Z",
-          "deadline": "2023-12-19T06:02:39.830Z",
-          "title": "programming",
-          "description": "calculating the feed won't do anything, we need to copy the auxiliary OCR bus!",
-          "completion": false,
-          "task_value": 4,
-          "tags": "author"
-        },
-        {
-          "task_id": "t50a9d9f5-e840-4fc6-b133-50290f4b103d",
-          "user_id": "uda317eca-0389-4b2a-bf3b-e17372a5e146",
-          "created_at": "2023-01-23T04:32:28.536Z",
-          "deadline": null,
-          "title": "hacking",
-          "description": "Use the digital CLI interface, then you can program the back-end driver!",
-          "completion": false,
-          "task_value": 3,
-          "tags": null
-        },
-        {
-          "task_id": "tcf811238-cb87-49f4-aaaa-243664d7e3bd",
-          "user_id": "uda317eca-0389-4b2a-bf3b-e17372a5e146",
-          "created_at": "2023-01-23T01:37:35.481Z",
-          "deadline": "2023-09-11T10:00:24.270Z",
-          "title": "overriding",
-          "description": "Try to back up the SMTP port, maybe it will calculate the haptic monitor!",
-          "completion": false,
-          "task_value": 10,
-          "tags": null
-        },
-        {
-          "task_id": "t11504ea1-8ed9-409c-bd3f-d99dabd8016b",
-          "user_id": "uda317eca-0389-4b2a-bf3b-e17372a5e146",
-          "created_at": "2023-01-23T11:22:24.817Z",
-          "deadline": null,
-          "title": "transmitting",
-          "description": "parsing the alarm won't do anything, we need to parse the solid state TCP microchip!",
-          "completion": false,
-          "task_value": 10,
-          "tags": "chasuble"
-        },
-        {
-          "task_id": "t961a4e3e-2cc0-4467-8f5c-e856c8c0f210",
-          "user_id": "uda317eca-0389-4b2a-bf3b-e17372a5e146",
-          "created_at": "2023-01-23T05:09:33.572Z",
-          "deadline": "2023-06-06T01:10:19.256Z",
-          "title": "copying",
-          "description": "If we hack the capacitor, we can get to the UTF8 bandwidth through the primary TCP array!",
-          "completion": true,
-          "task_value": 7,
-          "tags": null
-        },
-        {
-          "task_id": "t096b4654-6567-4aba-9abe-c42ea3604ede",
-          "user_id": "uda317eca-0389-4b2a-bf3b-e17372a5e146",
-          "created_at": "2023-01-22T20:50:17.436Z",
-          "deadline": null,
-          "title": "navigating",
-          "description": "Try to navigate the HEX protocol, maybe it will synthesize the cross-platform pixel!",
-          "completion": false,
-          "task_value": 9,
-          "tags": null
-        }
-      ],
-      "currWinner": "uda317eca-0389-4b2a-bf3b-e17372a5e146"
-    },
-    {
-      "household_id": "h6fe5e5e6-dacc-47d4-ae53-9a1f86562766",
-      "name": "Hackett household",
-      "household_password": "healthyclick",
-      "description": "Aliquam tenetur nisi labore alias similique ipsum repellendus.",
-      "users": [
-        {
-          "id": "u97dd0141-1fba-4978-a24d-d2df7a4e254a",
-          "permissions": ["admin"],
-          "currScore": 48
-        }
-      ],
-      "tasks": [
-        {
-          "task_id": "tda776f20-4451-488a-a1dd-28efad08e959",
-          "user_id": "u97dd0141-1fba-4978-a24d-d2df7a4e254a",
-          "created_at": "2023-01-23T00:19:37.847Z",
-          "deadline": "2023-11-14T20:38:18.208Z",
-          "title": "quantifying",
-          "description": "I'll quantify the virtual ADP port, that should pixel the SSD protocol!",
-          "completion": false,
-          "task_value": 7,
-          "tags": "cart"
-        },
-        {
-          "task_id": "tc08da894-20f8-45f7-bcf7-ce7846820cf0",
-          "user_id": "u97dd0141-1fba-4978-a24d-d2df7a4e254a",
-          "created_at": "2023-01-23T05:08:38.466Z",
-          "deadline": null,
-          "title": "transmitting",
-          "description": "programming the array won't do anything, we need to calculate the redundant AI sensor!",
-          "completion": true,
-          "task_value": 9,
-          "tags": null
-        }
-      ],
-      "currWinner": "u97dd0141-1fba-4978-a24d-d2df7a4e254a"
-    },
-    {
-      "household_id": "h5bd1b371-087b-4eff-a314-79148da48d7b",
-      "name": "Daugherty household",
-      "household_password": "thishamster",
-      "description": "Optio libero ipsam quaerat dolorum cumque ex natus.",
-      "users": [
-        {
-          "id": "ub18c20d9-12fa-4e8b-b9aa-af8d136853fb",
-          "permissions": ["admin"],
-          "currScore": 30
-        },
-        {
-          "id": "uc6ed62d0-0fdd-4623-8a73-3e9355509fff",
-          "permissions": ["member"],
-          "currScore": 35
-        }
-      ],
-      "tasks": [
-        {
-          "task_id": "td4e62718-8640-45f6-a4a7-91006cbaa26b",
-          "user_id": "ub18c20d9-12fa-4e8b-b9aa-af8d136853fb",
-          "created_at": "2023-01-23T19:07:46.524Z",
-          "deadline": "2023-05-28T05:30:36.300Z",
-          "title": "compressing",
-          "description": "I'll back up the primary SAS interface, that should monitor the RSS monitor!",
-          "completion": false,
-          "task_value": 2,
-          "tags": "hose"
-        },
-        {
-          "task_id": "t501b6513-7806-4630-aa96-d5774904bfe5",
-          "user_id": "uc6ed62d0-0fdd-4623-8a73-3e9355509fff",
-          "created_at": "2023-01-23T16:41:39.425Z",
-          "deadline": null,
-          "title": "bypassing",
-          "description": "We need to copy the digital SSL microchip!",
-          "completion": false,
-          "task_value": 2,
-          "tags": null
-        },
-        {
-          "task_id": "t7f3bc100-29cc-4982-bca4-ed631c3fa233",
-          "user_id": "uc6ed62d0-0fdd-4623-8a73-3e9355509fff",
-          "created_at": "2023-01-23T03:01:42.588Z",
-          "deadline": "2023-11-21T22:05:13.072Z",
-          "title": "synthesizing",
-          "description": "You can't hack the firewall without quantifying the solid state TCP bus!",
-          "completion": true,
-          "task_value": 4,
-          "tags": null
-        }
-      ],
-      "currWinner": "uc6ed62d0-0fdd-4623-8a73-3e9355509fff"
-    },
-    {
-      "household_id": "hebbf97c8-67b3-4faa-8c4a-d336f9f44bf6",
-      "name": "Parisian household",
-      "household_password": "poisedharmony",
-      "description": "Ab sequi sed totam.",
-      "users": [
-        {
-          "id": "ue195a90e-4c77-49b4-9783-f572ed4adb32",
-          "permissions": ["admin"],
-          "currScore": 8
-        },
-        {
-          "id": "u71beba10-700e-4c1e-947b-654a12076081",
-          "permissions": ["member"],
-          "currScore": 13
-        },
-        {
-          "id": "ua24fa7fe-a601-4e01-8205-cf39ac0915a8",
-          "permissions": ["member"],
-          "currScore": 23
-        },
-        {
-          "id": "u52aa1bd1-e07a-41ab-a52d-a95606089091",
-          "permissions": ["member"],
-          "currScore": 40
-        }
-      ],
-      "tasks": [
-        {
-          "task_id": "t13e88a44-b568-4313-b206-dfb818d591d5",
-          "user_id": "ue195a90e-4c77-49b4-9783-f572ed4adb32",
-          "created_at": "2023-01-23T11:11:44.019Z",
-          "deadline": "2023-04-24T09:27:51.156Z",
-          "title": "calculating",
-          "description": "The SMS port is down, calculate the online monitor so we can navigate the ADP interface!",
-          "completion": false,
-          "task_value": 2,
-          "tags": "hovel"
-        }
-      ],
-      "currWinner": "ua24fa7fe-a601-4e01-8205-cf39ac0915a8"
-    },
-    {
-      "household_id": "h13860d47-26d6-4ffd-90de-3f80e7a5802c",
-      "name": "Harber household",
-      "household_password": "occasionalloquat",
-      "description": "Debitis delectus quos hic.",
-      "users": [
-        {
-          "id": "ufa947a90-c103-4c73-8c48-a6a65ae3c245",
-          "permissions": ["admin"],
-          "currScore": 12
-        },
-        {
-          "id": "u84dbd159-b727-4bd1-96d8-37cb8f69efd3",
-          "permissions": ["member"],
-          "currScore": 1
-        },
-        {
-          "id": "u050d17e3-c1f3-40dd-a603-3cff7ee64891",
-          "permissions": ["member"],
-          "currScore": 44
-        }
-      ],
-      "tasks": [
-        {
-          "task_id": "tf53ae6e3-e0e0-4909-bcf7-e44a2d7c9c99",
-          "user_id": "u84dbd159-b727-4bd1-96d8-37cb8f69efd3",
-          "created_at": "2023-01-22T22:45:19.998Z",
-          "deadline": "2023-06-13T02:32:44.555Z",
-          "title": "navigating",
-          "description": "calculating the monitor won't do anything, we need to connect the digital ASCII driver!",
-          "completion": true,
-          "task_value": 5,
-          "tags": "administration"
-        }
-      ],
-      "currWinner": "u050d17e3-c1f3-40dd-a603-3cff7ee64891"
-    },
-    {
-      "household_id": "h4f34cb25-951d-4317-9afb-d640b2ca92c0",
-      "name": "Conn household",
-      "household_password": "improbablepain",
-      "description": "Iste nobis cum repellendus.",
-      "users": [
-        {
-          "id": "u2467857f-a46d-4150-acfd-cce8448d8e34",
-          "permissions": ["admin"],
-          "currScore": 44
-        },
-        {
-          "id": "uc1d07b68-3621-4cd0-9915-a01f1de37fc9",
-          "permissions": ["member"],
-          "currScore": 21
-        },
-        {
-          "id": "u78d24ee7-8995-4013-bfc2-66b1d6e04c02",
-          "permissions": ["member"],
-          "currScore": 26
-        }
-      ],
-      "tasks": [
-        {
-          "task_id": "t609e3a22-3dc5-4144-9b8e-cef344ea14a0",
-          "user_id": "u78d24ee7-8995-4013-bfc2-66b1d6e04c02",
-          "created_at": "2023-01-23T04:36:44.644Z",
-          "deadline": "2023-04-18T17:23:00.052Z",
-          "title": "parsing",
-          "description": "The SCSI firewall is down, connect the multi-byte alarm so we can program the TLS hard drive!",
-          "completion": true,
-          "task_value": 5,
-          "tags": "sauce"
-        },
-        {
-          "task_id": "tea85c5ac-7ffd-48f4-a5a1-877fa228318b",
-          "user_id": "u78d24ee7-8995-4013-bfc2-66b1d6e04c02",
-          "created_at": "2023-01-23T19:31:01.286Z",
-          "deadline": null,
-          "title": "hacking",
-          "description": "We need to connect the primary IP microchip!",
-          "completion": false,
-          "task_value": 2,
-          "tags": null
-        },
-        {
-          "task_id": "t6601bb19-3ed6-47aa-ad38-fcd13b588bfb",
-          "user_id": "u2467857f-a46d-4150-acfd-cce8448d8e34",
-          "created_at": "2023-01-23T07:56:01.030Z",
-          "deadline": "2023-10-14T19:23:27.014Z",
-          "title": "synthesizing",
-          "description": "The DNS monitor is down, back up the haptic firewall so we can bypass the RSS feed!",
-          "completion": true,
-          "task_value": 4,
-          "tags": null
-        },
-        {
-          "task_id": "ta53f0983-eb25-4c9b-b6d9-691f4c1d26a4",
-          "user_id": "uc1d07b68-3621-4cd0-9915-a01f1de37fc9",
-          "created_at": "2023-01-23T08:59:50.297Z",
-          "deadline": null,
-          "title": "overriding",
-          "description": "The UDP system is down, parse the back-end transmitter so we can calculate the XML monitor!",
-          "completion": false,
-          "task_value": 2,
-          "tags": "backburn"
-        },
-        {
-          "task_id": "t017b42da-2327-4858-9c53-f1ff32a1fcf3",
-          "user_id": "u2467857f-a46d-4150-acfd-cce8448d8e34",
-          "created_at": "2023-01-23T04:00:42.154Z",
-          "deadline": "2023-07-31T18:03:22.672Z",
-          "title": "programming",
-          "description": "If we compress the driver, we can get to the TCP capacitor through the haptic JBOD driver!",
-          "completion": false,
-          "task_value": 1,
-          "tags": null
-        },
-        {
-          "task_id": "t708be831-0f73-48b5-b561-7c80dff7895d",
-          "user_id": "uc1d07b68-3621-4cd0-9915-a01f1de37fc9",
-          "created_at": "2023-01-23T04:03:28.925Z",
-          "deadline": null,
-          "title": "navigating",
-          "description": "The HDD microchip is down, bypass the primary application so we can override the AGP alarm!",
-          "completion": false,
-          "task_value": 9,
-          "tags": null
-        },
-        {
-          "task_id": "tc5cb62f6-b302-4b3e-88a0-fbbc8390264a",
-          "user_id": "u78d24ee7-8995-4013-bfc2-66b1d6e04c02",
-          "created_at": "2023-01-23T05:41:32.714Z",
-          "deadline": "2023-08-30T11:34:35.607Z",
-          "title": "calculating",
-          "description": "Try to connect the RAM bus, maybe it will bypass the auxiliary transmitter!",
-          "completion": false,
-          "task_value": 4,
-          "tags": "fugato"
-        },
-        {
-          "task_id": "tfcecd802-784b-4a23-91fb-71e0f2b71e01",
-          "user_id": "uc1d07b68-3621-4cd0-9915-a01f1de37fc9",
-          "created_at": "2023-01-23T00:50:21.526Z",
-          "deadline": null,
-          "title": "navigating",
-          "description": "bypassing the port won't do anything, we need to transmit the multi-byte JBOD array!",
-          "completion": true,
-          "task_value": 3,
-          "tags": null
-        }
-      ],
-      "currWinner": "uc1d07b68-3621-4cd0-9915-a01f1de37fc9"
-    }
-  ]
-}
+[
+  {
+    "name": "Batz household",
+    "household_password": "robustpie",
+    "description": "Quis corporis omnis ex eum placeat reprehenderit.",
+    "users": [
+      {
+        "permissions": ["admin"],
+        "currScore": 19,
+        "name": "Keyon Batz",
+        "picture": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/576.jpg",
+        "email": "Aliya_Krajcik@yahoo.com"
+      }
+    ],
+    "tasks": [
+      {
+        "email": "Aliya_Krajcik@yahoo.com",
+        "created_at": "2023-01-26T09:34:44.626Z",
+        "deadline": "2023-11-04T10:36:40.083Z",
+        "title": "compressing",
+        "description": "Try to back up the AGP interface, maybe it will back up the optical capacitor!",
+        "completion": true,
+        "task_value": 7,
+        "tags": ["hyacinth"]
+      },
+      {
+        "email": "Aliya_Krajcik@yahoo.com",
+        "created_at": "2023-01-26T06:22:58.547Z",
+        "deadline": null,
+        "title": "bypassing",
+        "description": "If we index the protocol, we can get to the XSS bandwidth through the open-source AGP monitor!",
+        "completion": false,
+        "task_value": 7,
+        "tags": null
+      },
+      {
+        "email": "Aliya_Krajcik@yahoo.com",
+        "created_at": "2023-01-26T13:10:40.315Z",
+        "deadline": "2023-05-11T08:48:51.826Z",
+        "title": "synthesizing",
+        "description": "I'll transmit the virtual SDD alarm, that should card the SSL system!",
+        "completion": true,
+        "task_value": 3,
+        "tags": null
+      },
+      {
+        "email": "Aliya_Krajcik@yahoo.com",
+        "created_at": "2023-01-25T21:32:50.343Z",
+        "deadline": null,
+        "title": "programming",
+        "description": "You can't program the firewall without overriding the back-end API transmitter!",
+        "completion": false,
+        "task_value": 6,
+        "tags": ["chicken"]
+      },
+      {
+        "email": "Aliya_Krajcik@yahoo.com",
+        "created_at": "2023-01-26T01:31:59.263Z",
+        "deadline": "2023-10-25T20:55:59.690Z",
+        "title": "compressing",
+        "description": "Use the redundant TLS microchip, then you can back up the optical hard drive!",
+        "completion": false,
+        "task_value": 3,
+        "tags": null
+      }
+    ],
+    "currWinner": "Aliya_Krajcik@yahoo.com"
+  },
+  {
+    "name": "Rohan household",
+    "household_password": "activevillage",
+    "description": "Officia earum repellendus explicabo sit quis optio rerum eius.",
+    "users": [
+      {
+        "permissions": ["admin"],
+        "currScore": 16,
+        "name": "Veronica Rohan",
+        "picture": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/314.jpg",
+        "email": "Earl.Kohler@yahoo.com"
+      },
+      {
+        "permissions": ["member"],
+        "currScore": 30,
+        "name": "Billie Rohan",
+        "picture": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/491.jpg",
+        "email": "Jessie.Ziemann@yahoo.com"
+      }
+    ],
+    "tasks": [
+      {
+        "email": "Earl.Kohler@yahoo.com",
+        "created_at": "2023-01-26T03:17:52.668Z",
+        "deadline": "2023-05-11T10:34:05.929Z",
+        "title": "connecting",
+        "description": "Try to copy the AI firewall, maybe it will hack the redundant firewall!",
+        "completion": true,
+        "task_value": 2,
+        "tags": ["amnesty"]
+      }
+    ],
+    "currWinner": "Jessie.Ziemann@yahoo.com"
+  },
+  {
+    "name": "Kub household",
+    "household_password": "unwillingphotography",
+    "description": "Excepturi aliquam expedita occaecati natus nihil.",
+    "users": [
+      {
+        "permissions": ["admin"],
+        "currScore": 1,
+        "name": "Margret Kub",
+        "picture": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1089.jpg",
+        "email": "Irma30@gmail.com"
+      },
+      {
+        "permissions": ["member"],
+        "currScore": 28,
+        "name": "Minerva Kub",
+        "picture": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/625.jpg",
+        "email": "Corine.Boyle@gmail.com"
+      }
+    ],
+    "tasks": [
+      {
+        "email": "Irma30@gmail.com",
+        "created_at": "2023-01-26T09:25:29.327Z",
+        "deadline": "2023-11-19T03:07:21.336Z",
+        "title": "hacking",
+        "description": "I'll copy the auxiliary ADP transmitter, that should card the UDP panel!",
+        "completion": true,
+        "task_value": 8,
+        "tags": ["yogurt"]
+      },
+      {
+        "email": "Corine.Boyle@gmail.com",
+        "created_at": "2023-01-26T03:21:53.310Z",
+        "deadline": null,
+        "title": "calculating",
+        "description": "If we generate the sensor, we can get to the PCI interface through the redundant SMTP port!",
+        "completion": false,
+        "task_value": 1,
+        "tags": null
+      },
+      {
+        "email": "Irma30@gmail.com",
+        "created_at": "2023-01-26T02:20:33.421Z",
+        "deadline": "2023-12-01T03:51:47.578Z",
+        "title": "synthesizing",
+        "description": "The JSON array is down, bypass the wireless interface so we can hack the THX port!",
+        "completion": true,
+        "task_value": 10,
+        "tags": null
+      },
+      {
+        "email": "Corine.Boyle@gmail.com",
+        "created_at": "2023-01-26T08:38:49.597Z",
+        "deadline": null,
+        "title": "parsing",
+        "description": "You can't transmit the interface without overriding the wireless ADP bandwidth!",
+        "completion": true,
+        "task_value": 7,
+        "tags": ["prosperity"]
+      },
+      {
+        "email": "Irma30@gmail.com",
+        "created_at": "2023-01-26T18:24:52.780Z",
+        "deadline": "2023-10-04T16:34:11.187Z",
+        "title": "generating",
+        "description": "The UTF8 matrix is down, program the multi-byte pixel so we can navigate the IB panel!",
+        "completion": false,
+        "task_value": 6,
+        "tags": null
+      },
+      {
+        "email": "Corine.Boyle@gmail.com",
+        "created_at": "2023-01-26T06:59:57.514Z",
+        "deadline": null,
+        "title": "hacking",
+        "description": "Use the redundant JSON firewall, then you can calculate the primary protocol!",
+        "completion": false,
+        "task_value": 10,
+        "tags": null
+      },
+      {
+        "email": "Irma30@gmail.com",
+        "created_at": "2023-01-25T22:46:34.335Z",
+        "deadline": "2023-04-30T02:08:38.347Z",
+        "title": "compressing",
+        "description": "You can't override the matrix without connecting the digital AI monitor!",
+        "completion": true,
+        "task_value": 10,
+        "tags": ["parameter"]
+      },
+      {
+        "email": "Irma30@gmail.com",
+        "created_at": "2023-01-26T17:17:51.070Z",
+        "deadline": null,
+        "title": "quantifying",
+        "description": "You can't input the bus without programming the open-source UTF8 driver!",
+        "completion": true,
+        "task_value": 1,
+        "tags": null
+      },
+      {
+        "email": "Corine.Boyle@gmail.com",
+        "created_at": "2023-01-26T12:44:44.497Z",
+        "deadline": "2023-05-20T13:17:37.194Z",
+        "title": "compressing",
+        "description": "Try to transmit the HTTP driver, maybe it will program the redundant system!",
+        "completion": false,
+        "task_value": 9,
+        "tags": null
+      },
+      {
+        "email": "Irma30@gmail.com",
+        "created_at": "2023-01-26T10:11:04.095Z",
+        "deadline": null,
+        "title": "quantifying",
+        "description": "synthesizing the protocol won't do anything, we need to generate the multi-byte OCR bandwidth!",
+        "completion": true,
+        "task_value": 8,
+        "tags": ["prospect"]
+      },
+      {
+        "email": "Corine.Boyle@gmail.com",
+        "created_at": "2023-01-26T09:30:09.957Z",
+        "deadline": "2023-09-26T03:37:58.216Z",
+        "title": "quantifying",
+        "description": "If we override the capacitor, we can get to the FTP protocol through the haptic ASCII driver!",
+        "completion": false,
+        "task_value": 4,
+        "tags": null
+      }
+    ],
+    "currWinner": "Irma30@gmail.com"
+  },
+  {
+    "name": "Toy household",
+    "household_password": "officialtummy",
+    "description": "Magni eligendi nihil repellat impedit at.",
+    "users": [
+      {
+        "permissions": ["admin"],
+        "currScore": 33,
+        "name": "Leopoldo Toy",
+        "picture": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/423.jpg",
+        "email": "Baby_Medhurst@yahoo.com"
+      }
+    ],
+    "tasks": [
+      {
+        "email": "Baby_Medhurst@yahoo.com",
+        "created_at": "2023-01-26T14:09:35.053Z",
+        "deadline": "2023-10-22T08:53:04.527Z",
+        "title": "compressing",
+        "description": "You can't calculate the hard drive without backing up the solid state USB program!",
+        "completion": true,
+        "task_value": 8,
+        "tags": ["objective"]
+      },
+      {
+        "email": "Baby_Medhurst@yahoo.com",
+        "created_at": "2023-01-25T23:41:48.994Z",
+        "deadline": null,
+        "title": "quantifying",
+        "description": "We need to reboot the digital RAM system!",
+        "completion": false,
+        "task_value": 8,
+        "tags": null
+      },
+      {
+        "email": "Baby_Medhurst@yahoo.com",
+        "created_at": "2023-01-26T11:59:01.089Z",
+        "deadline": "2023-01-30T15:38:41.237Z",
+        "title": "indexing",
+        "description": "We need to copy the primary AGP hard drive!",
+        "completion": false,
+        "task_value": 6,
+        "tags": null
+      },
+      {
+        "email": "Baby_Medhurst@yahoo.com",
+        "created_at": "2023-01-26T08:17:51.823Z",
+        "deadline": null,
+        "title": "compressing",
+        "description": "If we index the microchip, we can get to the TCP sensor through the virtual SMTP pixel!",
+        "completion": true,
+        "task_value": 3,
+        "tags": ["nectar"]
+      },
+      {
+        "email": "Baby_Medhurst@yahoo.com",
+        "created_at": "2023-01-26T10:48:22.492Z",
+        "deadline": "2023-05-03T10:26:57.541Z",
+        "title": "programming",
+        "description": "You can't reboot the bandwidth without copying the digital SMTP matrix!",
+        "completion": false,
+        "task_value": 2,
+        "tags": null
+      },
+      {
+        "email": "Baby_Medhurst@yahoo.com",
+        "created_at": "2023-01-26T03:28:15.073Z",
+        "deadline": null,
+        "title": "generating",
+        "description": "You can't calculate the array without copying the multi-byte THX monitor!",
+        "completion": false,
+        "task_value": 3,
+        "tags": null
+      },
+      {
+        "email": "Baby_Medhurst@yahoo.com",
+        "created_at": "2023-01-26T09:12:02.438Z",
+        "deadline": "2023-05-06T04:11:45.907Z",
+        "title": "calculating",
+        "description": "We need to parse the digital SMTP transmitter!",
+        "completion": false,
+        "task_value": 1,
+        "tags": ["consensus"]
+      },
+      {
+        "email": "Baby_Medhurst@yahoo.com",
+        "created_at": "2023-01-26T10:23:27.348Z",
+        "deadline": null,
+        "title": "generating",
+        "description": "The HDD interface is down, copy the wireless capacitor so we can back up the SAS array!",
+        "completion": true,
+        "task_value": 3,
+        "tags": null
+      },
+      {
+        "email": "Baby_Medhurst@yahoo.com",
+        "created_at": "2023-01-26T11:17:02.663Z",
+        "deadline": "2023-10-05T15:56:14.496Z",
+        "title": "backing up",
+        "description": "You can't connect the microchip without synthesizing the multi-byte AI alarm!",
+        "completion": true,
+        "task_value": 4,
+        "tags": null
+      },
+      {
+        "email": "Baby_Medhurst@yahoo.com",
+        "created_at": "2023-01-26T02:00:43.536Z",
+        "deadline": null,
+        "title": "programming",
+        "description": "I'll compress the solid state ASCII panel, that should capacitor the SQL feed!",
+        "completion": true,
+        "task_value": 1,
+        "tags": ["guy"]
+      },
+      {
+        "email": "Baby_Medhurst@yahoo.com",
+        "created_at": "2023-01-25T21:31:18.509Z",
+        "deadline": "2023-02-25T12:58:15.954Z",
+        "title": "quantifying",
+        "description": "calculating the firewall won't do anything, we need to generate the wireless SSL alarm!",
+        "completion": true,
+        "task_value": 9,
+        "tags": null
+      },
+      {
+        "email": "Baby_Medhurst@yahoo.com",
+        "created_at": "2023-01-26T09:36:06.764Z",
+        "deadline": null,
+        "title": "navigating",
+        "description": "You can't transmit the capacitor without navigating the cross-platform HDD system!",
+        "completion": true,
+        "task_value": 6,
+        "tags": null
+      },
+      {
+        "email": "Baby_Medhurst@yahoo.com",
+        "created_at": "2023-01-26T17:31:06.489Z",
+        "deadline": "2023-10-10T11:52:12.288Z",
+        "title": "navigating",
+        "description": "Try to synthesize the PNG transmitter, maybe it will reboot the virtual microchip!",
+        "completion": true,
+        "task_value": 9,
+        "tags": ["philosophy"]
+      }
+    ],
+    "currWinner": "Baby_Medhurst@yahoo.com"
+  },
+  {
+    "name": "Trantow household",
+    "household_password": "optimaldinghy",
+    "description": "Commodi delectus ipsum enim nihil quae accusantium.",
+    "users": [
+      {
+        "permissions": ["admin"],
+        "currScore": 25,
+        "name": "Buddy Trantow",
+        "picture": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/386.jpg",
+        "email": "Mckayla_Mante@hotmail.com"
+      },
+      {
+        "permissions": ["member"],
+        "currScore": 27,
+        "name": "Katelin Trantow",
+        "picture": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/795.jpg",
+        "email": "Filiberto.Boyer@gmail.com"
+      }
+    ],
+    "tasks": [
+      {
+        "email": "Mckayla_Mante@hotmail.com",
+        "created_at": "2023-01-26T15:11:04.756Z",
+        "deadline": "2023-03-30T01:41:45.332Z",
+        "title": "calculating",
+        "description": "If we override the card, we can get to the SQL sensor through the multi-byte UDP bus!",
+        "completion": false,
+        "task_value": 4,
+        "tags": ["mat"]
+      },
+      {
+        "email": "Mckayla_Mante@hotmail.com",
+        "created_at": "2023-01-26T11:34:25.443Z",
+        "deadline": null,
+        "title": "backing up",
+        "description": "Try to input the JSON monitor, maybe it will copy the solid state interface!",
+        "completion": false,
+        "task_value": 4,
+        "tags": null
+      },
+      {
+        "email": "Mckayla_Mante@hotmail.com",
+        "created_at": "2023-01-26T08:51:52.902Z",
+        "deadline": "2023-09-17T10:47:44.440Z",
+        "title": "calculating",
+        "description": "If we input the transmitter, we can get to the TCP driver through the auxiliary CSS sensor!",
+        "completion": true,
+        "task_value": 8,
+        "tags": null
+      },
+      {
+        "email": "Filiberto.Boyer@gmail.com",
+        "created_at": "2023-01-25T19:13:42.033Z",
+        "deadline": null,
+        "title": "generating",
+        "description": "generating the bandwidth won't do anything, we need to quantify the bluetooth SCSI microchip!",
+        "completion": true,
+        "task_value": 1,
+        "tags": ["print"]
+      },
+      {
+        "email": "Mckayla_Mante@hotmail.com",
+        "created_at": "2023-01-26T18:48:09.673Z",
+        "deadline": "2023-04-29T02:45:54.318Z",
+        "title": "calculating",
+        "description": "The RSS feed is down, quantify the optical firewall so we can back up the THX bus!",
+        "completion": false,
+        "task_value": 7,
+        "tags": null
+      }
+    ],
+    "currWinner": "Filiberto.Boyer@gmail.com"
+  },
+  {
+    "name": "Wintheiser household",
+    "household_password": "mindlessspending",
+    "description": "Quod mollitia debitis.",
+    "users": [
+      {
+        "permissions": ["admin"],
+        "currScore": 29,
+        "name": "Kadin Wintheiser",
+        "picture": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1073.jpg",
+        "email": "Wyman_Schumm@hotmail.com"
+      },
+      {
+        "permissions": ["member"],
+        "currScore": 36,
+        "name": "Nannie Wintheiser",
+        "picture": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/104.jpg",
+        "email": "Winston58@yahoo.com"
+      }
+    ],
+    "tasks": [
+      {
+        "email": "Winston58@yahoo.com",
+        "created_at": "2023-01-26T14:34:42.542Z",
+        "deadline": "2023-07-18T05:50:57.451Z",
+        "title": "generating",
+        "description": "I'll generate the primary THX feed, that should panel the HTTP driver!",
+        "completion": false,
+        "task_value": 2,
+        "tags": ["tap"]
+      },
+      {
+        "email": "Wyman_Schumm@hotmail.com",
+        "created_at": "2023-01-26T00:25:39.826Z",
+        "deadline": null,
+        "title": "backing up",
+        "description": "The CLI card is down, navigate the cross-platform array so we can program the RAM sensor!",
+        "completion": true,
+        "task_value": 6,
+        "tags": null
+      },
+      {
+        "email": "Wyman_Schumm@hotmail.com",
+        "created_at": "2023-01-26T11:24:11.463Z",
+        "deadline": "2023-03-15T17:50:27.122Z",
+        "title": "indexing",
+        "description": "I'll input the primary CSS bus, that should interface the HEX panel!",
+        "completion": true,
+        "task_value": 8,
+        "tags": null
+      },
+      {
+        "email": "Winston58@yahoo.com",
+        "created_at": "2023-01-26T08:08:26.521Z",
+        "deadline": null,
+        "title": "copying",
+        "description": "The HTTP bandwidth is down, back up the digital feed so we can index the SSL card!",
+        "completion": false,
+        "task_value": 5,
+        "tags": ["seal"]
+      },
+      {
+        "email": "Wyman_Schumm@hotmail.com",
+        "created_at": "2023-01-26T18:07:42.594Z",
+        "deadline": "2023-05-12T04:52:07.000Z",
+        "title": "hacking",
+        "description": "Try to connect the THX application, maybe it will calculate the open-source firewall!",
+        "completion": false,
+        "task_value": 8,
+        "tags": null
+      },
+      {
+        "email": "Wyman_Schumm@hotmail.com",
+        "created_at": "2023-01-26T15:59:25.391Z",
+        "deadline": null,
+        "title": "synthesizing",
+        "description": "The PNG card is down, synthesize the 1080p driver so we can hack the OCR bus!",
+        "completion": false,
+        "task_value": 6,
+        "tags": null
+      },
+      {
+        "email": "Winston58@yahoo.com",
+        "created_at": "2023-01-26T13:10:17.077Z",
+        "deadline": "2023-11-24T23:52:22.123Z",
+        "title": "navigating",
+        "description": "Use the back-end HDD protocol, then you can synthesize the cross-platform microchip!",
+        "completion": false,
+        "task_value": 3,
+        "tags": ["default"]
+      },
+      {
+        "email": "Winston58@yahoo.com",
+        "created_at": "2023-01-26T11:41:50.648Z",
+        "deadline": null,
+        "title": "transmitting",
+        "description": "We need to program the virtual DNS protocol!",
+        "completion": true,
+        "task_value": 6,
+        "tags": null
+      },
+      {
+        "email": "Winston58@yahoo.com",
+        "created_at": "2023-01-26T03:24:45.139Z",
+        "deadline": "2023-07-03T06:04:28.413Z",
+        "title": "generating",
+        "description": "The AI firewall is down, navigate the digital driver so we can copy the DRAM firewall!",
+        "completion": false,
+        "task_value": 5,
+        "tags": null
+      },
+      {
+        "email": "Wyman_Schumm@hotmail.com",
+        "created_at": "2023-01-26T01:04:06.738Z",
+        "deadline": null,
+        "title": "indexing",
+        "description": "transmitting the driver won't do anything, we need to input the solid state SAS bus!",
+        "completion": false,
+        "task_value": 3,
+        "tags": ["court"]
+      }
+    ],
+    "currWinner": "Wyman_Schumm@hotmail.com"
+  },
+  {
+    "name": "King household",
+    "household_password": "concreteenactment",
+    "description": "Expedita ipsam corrupti similique dolores aliquam vero dolorem.",
+    "users": [
+      {
+        "permissions": ["admin"],
+        "currScore": 26,
+        "name": "Stacey King",
+        "picture": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/897.jpg",
+        "email": "Bennett_Lueilwitz2@yahoo.com"
+      },
+      {
+        "permissions": ["member"],
+        "currScore": 43,
+        "name": "Maiya King",
+        "picture": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1224.jpg",
+        "email": "Rosa_Beatty@gmail.com"
+      },
+      {
+        "permissions": ["member"],
+        "currScore": 4,
+        "name": "Sarai King",
+        "picture": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/774.jpg",
+        "email": "Kenton64@yahoo.com"
+      }
+    ],
+    "tasks": [
+      {
+        "email": "Kenton64@yahoo.com",
+        "created_at": "2023-01-26T10:42:49.219Z",
+        "deadline": "2023-08-08T11:54:52.285Z",
+        "title": "navigating",
+        "description": "Try to program the SDD matrix, maybe it will connect the 1080p microchip!",
+        "completion": true,
+        "task_value": 5,
+        "tags": ["reader"]
+      },
+      {
+        "email": "Rosa_Beatty@gmail.com",
+        "created_at": "2023-01-26T14:42:34.657Z",
+        "deadline": null,
+        "title": "quantifying",
+        "description": "Try to back up the SSL protocol, maybe it will synthesize the cross-platform application!",
+        "completion": true,
+        "task_value": 2,
+        "tags": null
+      },
+      {
+        "email": "Bennett_Lueilwitz2@yahoo.com",
+        "created_at": "2023-01-26T02:44:34.674Z",
+        "deadline": "2024-01-10T00:27:08.695Z",
+        "title": "transmitting",
+        "description": "hacking the card won't do anything, we need to synthesize the back-end XSS firewall!",
+        "completion": false,
+        "task_value": 7,
+        "tags": null
+      },
+      {
+        "email": "Bennett_Lueilwitz2@yahoo.com",
+        "created_at": "2023-01-25T23:49:20.692Z",
+        "deadline": null,
+        "title": "parsing",
+        "description": "Use the 1080p HDD port, then you can input the virtual transmitter!",
+        "completion": false,
+        "task_value": 6,
+        "tags": ["doc"]
+      },
+      {
+        "email": "Rosa_Beatty@gmail.com",
+        "created_at": "2023-01-26T00:43:58.910Z",
+        "deadline": "2023-05-03T23:49:51.511Z",
+        "title": "navigating",
+        "description": "I'll hack the multi-byte OCR bandwidth, that should transmitter the OCR sensor!",
+        "completion": true,
+        "task_value": 4,
+        "tags": null
+      },
+      {
+        "email": "Kenton64@yahoo.com",
+        "created_at": "2023-01-26T14:13:58.255Z",
+        "deadline": null,
+        "title": "backing up",
+        "description": "I'll parse the bluetooth PCI monitor, that should bandwidth the HEX system!",
+        "completion": false,
+        "task_value": 3,
+        "tags": null
+      },
+      {
+        "email": "Rosa_Beatty@gmail.com",
+        "created_at": "2023-01-26T18:17:53.839Z",
+        "deadline": "2023-03-02T23:25:59.242Z",
+        "title": "indexing",
+        "description": "I'll override the back-end THX bandwidth, that should port the CSS transmitter!",
+        "completion": false,
+        "task_value": 5,
+        "tags": ["hunt"]
+      },
+      {
+        "email": "Kenton64@yahoo.com",
+        "created_at": "2023-01-26T03:21:05.865Z",
+        "deadline": null,
+        "title": "overriding",
+        "description": "We need to index the haptic OCR feed!",
+        "completion": false,
+        "task_value": 5,
+        "tags": null
+      },
+      {
+        "email": "Kenton64@yahoo.com",
+        "created_at": "2023-01-26T13:40:16.002Z",
+        "deadline": "2024-01-22T15:43:40.982Z",
+        "title": "synthesizing",
+        "description": "Try to override the SMS port, maybe it will navigate the neural microchip!",
+        "completion": false,
+        "task_value": 5,
+        "tags": null
+      },
+      {
+        "email": "Kenton64@yahoo.com",
+        "created_at": "2023-01-26T14:56:47.334Z",
+        "deadline": null,
+        "title": "backing up",
+        "description": "Try to transmit the XML application, maybe it will generate the neural monitor!",
+        "completion": true,
+        "task_value": 2,
+        "tags": ["suspenders"]
+      },
+      {
+        "email": "Bennett_Lueilwitz2@yahoo.com",
+        "created_at": "2023-01-26T11:23:00.050Z",
+        "deadline": "2023-05-14T10:44:51.358Z",
+        "title": "overriding",
+        "description": "bypassing the transmitter won't do anything, we need to transmit the virtual CLI panel!",
+        "completion": true,
+        "task_value": 4,
+        "tags": null
+      }
+    ],
+    "currWinner": "Bennett_Lueilwitz2@yahoo.com"
+  },
+  {
+    "name": "Conroy household",
+    "household_password": "energeticmangrove",
+    "description": "Incidunt eligendi consequatur.",
+    "users": [
+      {
+        "permissions": ["admin"],
+        "currScore": 20,
+        "name": "Ernie Conroy",
+        "picture": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/264.jpg",
+        "email": "Cordell_Hansen54@gmail.com"
+      },
+      {
+        "permissions": ["member"],
+        "currScore": 36,
+        "name": "Gerard Conroy",
+        "picture": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/229.jpg",
+        "email": "Emerald.Reilly23@gmail.com"
+      },
+      {
+        "permissions": ["member"],
+        "currScore": 34,
+        "name": "Alta Conroy",
+        "picture": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/516.jpg",
+        "email": "Estrella_Hermann@hotmail.com"
+      }
+    ],
+    "tasks": [
+      {
+        "email": "Cordell_Hansen54@gmail.com",
+        "created_at": "2023-01-25T19:27:59.480Z",
+        "deadline": "2024-01-17T12:28:06.921Z",
+        "title": "overriding",
+        "description": "If we compress the feed, we can get to the DNS feed through the online XML system!",
+        "completion": false,
+        "task_value": 9,
+        "tags": ["tactile"]
+      },
+      {
+        "email": "Cordell_Hansen54@gmail.com",
+        "created_at": "2023-01-26T17:56:58.340Z",
+        "deadline": null,
+        "title": "bypassing",
+        "description": "The SCSI port is down, transmit the open-source port so we can connect the JSON bus!",
+        "completion": false,
+        "task_value": 7,
+        "tags": null
+      },
+      {
+        "email": "Emerald.Reilly23@gmail.com",
+        "created_at": "2023-01-26T00:43:39.695Z",
+        "deadline": "2023-07-06T18:38:57.972Z",
+        "title": "calculating",
+        "description": "You can't quantify the bus without calculating the 1080p RSS circuit!",
+        "completion": true,
+        "task_value": 7,
+        "tags": null
+      },
+      {
+        "email": "Estrella_Hermann@hotmail.com",
+        "created_at": "2023-01-26T05:02:01.433Z",
+        "deadline": null,
+        "title": "programming",
+        "description": "You can't reboot the hard drive without copying the auxiliary XSS program!",
+        "completion": false,
+        "task_value": 8,
+        "tags": ["radiosonde"]
+      },
+      {
+        "email": "Estrella_Hermann@hotmail.com",
+        "created_at": "2023-01-26T06:41:47.219Z",
+        "deadline": "2023-04-25T02:11:13.855Z",
+        "title": "programming",
+        "description": "Use the auxiliary SDD microchip, then you can generate the optical system!",
+        "completion": false,
+        "task_value": 9,
+        "tags": null
+      },
+      {
+        "email": "Estrella_Hermann@hotmail.com",
+        "created_at": "2023-01-26T07:41:58.703Z",
+        "deadline": null,
+        "title": "overriding",
+        "description": "compressing the array won't do anything, we need to connect the multi-byte ADP hard drive!",
+        "completion": false,
+        "task_value": 9,
+        "tags": null
+      },
+      {
+        "email": "Cordell_Hansen54@gmail.com",
+        "created_at": "2023-01-25T22:36:29.892Z",
+        "deadline": "2023-08-19T18:53:20.393Z",
+        "title": "copying",
+        "description": "If we quantify the card, we can get to the UDP microchip through the mobile COM protocol!",
+        "completion": true,
+        "task_value": 5,
+        "tags": ["sepal"]
+      },
+      {
+        "email": "Estrella_Hermann@hotmail.com",
+        "created_at": "2023-01-26T18:25:48.192Z",
+        "deadline": null,
+        "title": "generating",
+        "description": "The IP card is down, hack the digital program so we can program the VGA firewall!",
+        "completion": true,
+        "task_value": 9,
+        "tags": null
+      },
+      {
+        "email": "Emerald.Reilly23@gmail.com",
+        "created_at": "2023-01-26T10:20:27.993Z",
+        "deadline": "2023-12-31T20:10:27.856Z",
+        "title": "navigating",
+        "description": "If we compress the program, we can get to the ADP system through the haptic HDD transmitter!",
+        "completion": false,
+        "task_value": 4,
+        "tags": null
+      }
+    ],
+    "currWinner": "Estrella_Hermann@hotmail.com"
+  },
+  {
+    "name": "Frami household",
+    "household_password": "insidiousbassoon",
+    "description": "Dicta fugit eum quos neque quos.",
+    "users": [
+      {
+        "permissions": ["admin"],
+        "currScore": 35,
+        "name": "Joshua Frami",
+        "picture": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/867.jpg",
+        "email": "Camylle_Gleason@gmail.com"
+      },
+      {
+        "permissions": ["member"],
+        "currScore": 16,
+        "name": "Estrella Frami",
+        "picture": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1164.jpg",
+        "email": "Mavis_Walsh@yahoo.com"
+      },
+      {
+        "permissions": ["member"],
+        "currScore": 4,
+        "name": "Ezra Frami",
+        "picture": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/480.jpg",
+        "email": "Shana73@gmail.com"
+      },
+      {
+        "permissions": ["member"],
+        "currScore": 40,
+        "name": "Napoleon Frami",
+        "picture": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/783.jpg",
+        "email": "Kaylie.Bradtke@yahoo.com"
+      },
+      {
+        "permissions": ["member"],
+        "currScore": 23,
+        "name": "Kenyatta Frami",
+        "picture": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/564.jpg",
+        "email": "Mikayla_Runte45@hotmail.com"
+      }
+    ],
+    "tasks": [
+      {
+        "email": "Mikayla_Runte45@hotmail.com",
+        "created_at": "2023-01-26T17:42:31.019Z",
+        "deadline": "2023-03-11T08:14:50.864Z",
+        "title": "connecting",
+        "description": "The IB array is down, connect the mobile interface so we can parse the CSS pixel!",
+        "completion": false,
+        "task_value": 6,
+        "tags": ["hail"]
+      }
+    ],
+    "currWinner": "Kaylie.Bradtke@yahoo.com"
+  },
+  {
+    "name": "Balistreri household",
+    "household_password": "trivialzucchini",
+    "description": "Perferendis laboriosam velit ab.",
+    "users": [
+      {
+        "permissions": ["admin"],
+        "currScore": 9,
+        "name": "Keara Balistreri",
+        "picture": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/482.jpg",
+        "email": "Robbie.Runte@yahoo.com"
+      },
+      {
+        "permissions": ["member"],
+        "currScore": 3,
+        "name": "Ernestina Balistreri",
+        "picture": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/815.jpg",
+        "email": "Walton_Franey@yahoo.com"
+      },
+      {
+        "permissions": ["member"],
+        "currScore": 8,
+        "name": "Wilbert Balistreri",
+        "picture": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/552.jpg",
+        "email": "Reginald13@yahoo.com"
+      },
+      {
+        "permissions": ["member"],
+        "currScore": 8,
+        "name": "Monserrat Balistreri",
+        "picture": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1102.jpg",
+        "email": "Madge.Kutch@yahoo.com"
+      },
+      {
+        "permissions": ["member"],
+        "currScore": 21,
+        "name": "Georgiana Balistreri",
+        "picture": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/699.jpg",
+        "email": "Efren.Kuhic12@hotmail.com"
+      }
+    ],
+    "tasks": [
+      {
+        "email": "Efren.Kuhic12@hotmail.com",
+        "created_at": "2023-01-26T09:02:43.649Z",
+        "deadline": "2023-11-24T09:43:33.903Z",
+        "title": "bypassing",
+        "description": "The TLS capacitor is down, program the virtual pixel so we can back up the AGP pixel!",
+        "completion": false,
+        "task_value": 2,
+        "tags": ["gum"]
+      },
+      {
+        "email": "Walton_Franey@yahoo.com",
+        "created_at": "2023-01-26T15:12:59.421Z",
+        "deadline": null,
+        "title": "indexing",
+        "description": "parsing the feed won't do anything, we need to copy the redundant EXE matrix!",
+        "completion": false,
+        "task_value": 9,
+        "tags": null
+      },
+      {
+        "email": "Efren.Kuhic12@hotmail.com",
+        "created_at": "2023-01-26T10:24:57.745Z",
+        "deadline": "2023-09-30T17:52:48.395Z",
+        "title": "generating",
+        "description": "We need to back up the solid state ASCII port!",
+        "completion": false,
+        "task_value": 6,
+        "tags": null
+      },
+      {
+        "email": "Madge.Kutch@yahoo.com",
+        "created_at": "2023-01-26T07:43:17.471Z",
+        "deadline": null,
+        "title": "compressing",
+        "description": "Use the solid state IP capacitor, then you can calculate the 1080p hard drive!",
+        "completion": false,
+        "task_value": 10,
+        "tags": ["moon"]
+      },
+      {
+        "email": "Walton_Franey@yahoo.com",
+        "created_at": "2023-01-25T20:02:27.591Z",
+        "deadline": "2023-02-27T11:19:21.460Z",
+        "title": "indexing",
+        "description": "bypassing the bandwidth won't do anything, we need to hack the bluetooth UDP capacitor!",
+        "completion": false,
+        "task_value": 10,
+        "tags": null
+      }
+    ],
+    "currWinner": "Walton_Franey@yahoo.com"
+  }
+]
